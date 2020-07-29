@@ -1,21 +1,18 @@
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=alert_status)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=security_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hknight-official_TheSieuToc-WebApi&metric=ncloc)](https://sonarcloud.io/dashboard?id=Hknight-official_TheSieuToc-WebApi)
-# TheSieuToc
-> Api nạp thẻ của website Thesieutoc 
+# CaLong.Pro
+> Api nạp thẻ của website CaLong.Pro 
 
 # TheSieuToc Yêu Cầu:
 - Database: sql.sql - MYSQL
 
-- Website: https://thesieutoc.net
+- Website: https://calong.pro
 
 - config: api/config.php
 
    [+] Các mục cần chỉnh sửa ở file config.php :
    
-        [!] Apikey v2: là mã số key được cung cấp sau khi cung cấp url callback.php cho ApiServer.
+        [!] Apikey: là mã số key được cung cấp sau khi cung cấp url callback.php cho ApiServer.
+        
+        [!] Apisecret: là mã số key được cung cấp sau khi cung cấp url callback.php cho ApiServer.
         
         [!] Thông tin database.
         
