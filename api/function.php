@@ -22,7 +22,7 @@ class napthe
 	// )
 	public function get_card_v2($method)
 	{ // hàm gửi card lên api
-		$url = "http://localhost/api/send_card.php?APIkey=" . self::$key . "&APIsecret=" . self::$secret . "&mathe=" . $method['pin'] . "&seri=" . $method['seri'] . "&type=" . $method['type'] . "&menhgia=" . $method['amount'] . "&content=" . $method['content']."&url_callback=" . $method['link_callback'];
+		$url = "http://calong.pro/api/send_card.php?APIkey=" . self::$key . "&APIsecret=" . self::$secret . "&mathe=" . $method['pin'] . "&seri=" . $method['seri'] . "&type=" . $method['type'] . "&menhgia=" . $method['amount'] . "&content=" . $method['content']."&url_callback=" . $method['link_callback'];
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_POST, 1);
@@ -44,7 +44,7 @@ class napthe
 	}
 	
 	public function check_card ($content){ // hàm check card trên api
-		$url = "http://localhost/api/check_card.php?APIkey=".self::$key."&APIsecret=".self::$secret."&content=".$content;
+		$url = "http://calong.pro/api/check_card.php?APIkey=".self::$key."&APIsecret=".self::$secret."&content=".$content;
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_POST, 1);
