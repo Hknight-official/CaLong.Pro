@@ -19,7 +19,10 @@ if ($result->num_rows > 0){
 	if($status == 1) {
 			//Xử lý nạp thẻ thành công tại đây.
 			$conn->query("UPDATE trans_log SET status = 1 WHERE id = {$result['id']}"); // chuyển cho kết quả thành công      
-		} else {
+		
+	} else if (){
+			$conn->query("UPDATE trans_log SET status = 3, amount = {$amount} WHERE id = {$result['id']}"); // thất bại   
+	} else {
 			//Xử lý nạp thẻ thất bại tại đây.
            $conn->query("UPDATE trans_log SET status = 2 WHERE id = {$result['id']}"); // thất bại   
 		}
