@@ -1,7 +1,7 @@
 # CaLong.Pro
 > Api nạp thẻ của website CaLong.Pro 
 
-# TheSieuToc Yêu Cầu:
+# Calong.pro Yêu Cầu:
 - Database: sql.sql - MYSQL
 
 - Website: https://calong.pro
